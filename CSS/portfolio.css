@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  .container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+  }
+  
+  /*header styles*/
+ 
+  nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    transition: 0.2s;
+  }
+  nav ul li a:hover {
+    color: rgb(224, 188, 7);
+  }
+  
+  /* main section */
+  
+  .box {
+    margin-left: 8%;
+    margin-top: 15%;
+  }
+  
+  .box h1 {
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+  }
+  
+  span {
+    color: orange;
+  }
+  .box{
+    position: absolute;
+    top: 1rem;
+  }
+  
+  .box p {
+    color: #555;
+    line-height: 22px;
+  }
+  
+  .box a {
+    background: #000000;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+  }
+  
+  .images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+  }
+  
+  .images img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+  }
+  
+  .images:hover .shape {
+    bottom: 40px;
+  }
+  
+  .images:hover .asif {
+    left: 45%;
+  }
+  
+  .social {
+    margin-left: 8%;
+    position: absolute;
+    top: 28rem;
+  }
+  
+  .social a {
+    font-size: 30px;
+    color: #111215;
+    margin-right: 20px;
+  }
+  #linkedin{
+    color: blue;
+    
+  }
+  #linkedin :hover{
+    color: orange;
+    transition: 0.5s;
+  }
+  #insta{
+    color: rgb(233, 38, 38);
+    
+  }
+  #insta :hover{
+    color: orange;
+    transition: 0.5s;
+  }
+  
+  .social a:hover {
+    color: orange;
+    transition: 0.5s;
+  }
+  .btn :hover{
+    background-color: orange;
+    color: white;
+    transition: 0.5s;
+
+  }
